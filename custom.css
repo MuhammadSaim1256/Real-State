@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0 ,0.5),rgb(0, 0, 0,0.5)),url(../Images/ciudad-maderas-MXbM1NrRqtI-unsplash.jpg) no-repeat center center/cover;
+    text-align: center;
+}
+
+/* navbar */
+
+.svg1 {
+    /* display: inline-block; */
+    width: 50px;
+    height: 100px;
+    margin:0px 0px 0px 195px;
+    padding: 30px 0px;
+    float: left ;
+    fill: #fff;
+}
+
+#logo {
+    margin-left: 20px;
+    padding: 40px 0px 40px 0px;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar {
+    background-color: #333;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar ul {
+    /* margin:0px 400px; */
+    padding:23px 0px;
+    margin-right: 195px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* float: left; */
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: 15px;
+    /* float: left; */
+}
+
+#navbar ul li a {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a :hover .current {
+    color: yellowgreen;
+}
+
+/* header */
+
+.content {
+    /* width: 50%; */
+    text-align: center;
+    font-size: 50px;
+    font-family:'Roboto', sans-serif ;
+    line-height: 4rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.select {
+    color: yellowgreen;
+}
+
+.lead1 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.7rem;
+    /* text-align: center; */
+    color: #333;
+    margin-bottom: 1.3rem;
+    color: #fff;
+}
+
+.boxes {
+    text-align: center;
+}
+
+.lead {
+    /* width: 700px; */
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.7rem;
+    /* text-align: center; */
+    color: #333;
+    margin-bottom: 1.3rem;
+}
+
+.lead1 {
+    /* width: 700px; */
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.7rem;
+    /* text-align: center; */
+    color: #fff;
+    margin-bottom: 1.3rem;
+}
+
+.container {
+    margin: auto;
+    max-width: 70rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    color: white;
+    background-color: yellowgreen;
+    font-size: 20px;
+    padding: 1.3rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background-color: #444;
+}
+
+.head {
+    color: yellowgreen;
+}
+
+#what {
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+    padding-bottom: 10rem;
+    padding-top: 2rem;
+}
+
+.container1 {
+    width: 1100px;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.4em;
+    margin: auto;
+}
+
+.heading {
+    font-size: 40px;
+    padding: 100px 0px 50px 0px;
+    text-align: center;
+}
+
+/* .box svg {
+    padding-bottom: 20px;
+    width: 80px;
+    height: 100px;
+    fill: #333;
+}
+
+.box2 svg {
+    padding-bottom: 20px;
+    width: 80px;
+    height: 100px;
+    fill: #333;
+}
+
+.box3 svg {
+    padding-bottom: 20px;
+    width: 80px;
+    height: 100px;
+    fill: #333;
+} */
+
+.bg-light {
+    background-color: #eee;
+    color: #333;
+    fill: #333;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.bg-pri {
+    background-color: yellowgreen;
+    color: #fff;
+}
+
+#what .boxes {
+    display: flex;
+    text-align: center;
+}
+
+#what .boxes svg {
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    fill: #333;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+#what .boxes h3 {
+    font-size: 16px;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer p {
+    font-size: 1.2rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+#who {
+    display: flex;
+    height: 100vh;
+    margin-top: -14rem;
+}
+
+#who div {
+    flex: 1;
+}
+
+#who div :first-child {
+    flex: 3;
+}
+
+.who-img {
+    background: url(https://img.freepik.com/free-vector/people-putting-puzzle-pieces-together_52683-28610.jpg?w=2000) no-repeat center center/cover ;
+}
+
+#who .who-content {
+    color: #fff;
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    justify-content: center;
+    padding-top: 20rem;
+}
+
+.m-heading {
+    font-size: 40px;
+}
+
+.who-content h1 {
+    margin-bottom: 2rem;
+}
+
+.who-content h3 {
+    margin-bottom: 2rem;
+}
+
+.who-content ul {
+    padding-bottom: 30re;
+} 
+
+.who-content ul li {
+    margin-bottom: 2rem;
+    border-bottom: #eee 1px dotted;
+    width: 30rem;
+    padding: 1rem;
+}
+
+.who-content ul li:last-child {
+    border: none;
+    border-bottom: none;
+}
+
+#clients {
+    padding: 5rem;
+}
+
+#clients .clients {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    align-items: center;
+}
+
+#clients .clients img {
+    height: 10rem;
+    display: block;
+}
+
+#clients .clients div {
+    flex: 1;
+    margin: 2rem;
+}
+
+.clients {
+    display: flex;
+}
+
+#contact {
+    display: flex;
+    height: 50rem;
+}
+
+.heading1 {
+    font-size: 40px;
+}
+
+#contact .contact-form,
+#contact .map {
+    flex: 1;
+}
+
+#contact .contact-form {
+    padding: 5rem;
+}
+
+#contact .contact-form label,
+#contact .contact-form input,
+#contact .contact-form textarea {
+    display: block;
+}
+
+#contact .map {
+    background-color: #eee;
+    /* height: 60vh; */
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+#contact .contact-form label {
+    margin-bottom: 0.2rem;
+}
+
+#contact .map iframe {
+    width: 100%;
+    height: 100%;
+}
